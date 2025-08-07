@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.715);
+}
+
+/* Header welcome message styling */
+.welcome_message{
+  text-align: center;
+  font-size: large;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.welcome_message span{
+  color: #f8777786;
+}
+
+/* Media query for Medium screen (Tablets) */
+@media screen and (Max-width: 768px) {
+  .welcome_message{
+  font-size: 14px;
+  }
+}
+
+/* Media query for Small screen (Phones) */
+@media screen and (Max-width: 480px) {
+  .welcome_message{
+  text-align: start;
+  font-size: 10px;
+  }
+}
