@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap");
+
+
 body{
   margin: 0;
   padding: 0;
@@ -30,3 +33,118 @@ body{
   font-size: 10px;
   }
 }
+
+
+/* Main section */
+.main_section{
+  display: flex;
+  margin: 20px 30px;
+  box-shadow: 10px 10px 5px lightblue;
+  background-color: #f2eaea47;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/* Overriding the default styled calendar css */
+
+.todays_date{
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  margin-left: 28px;
+}
+
+.todays_date span{
+  color:#ca4b4bd1;
+  font-weight: bolder;
+  font-size: 30px;
+   font-family: "Fleur De Leah", cursive;
+  letter-spacing: 2px;
+}
+
+.react-calendar {
+  width: 50%;
+  max-width: 100%%;
+  height:40%;
+  border: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.4em;
+  border-radius:10%;
+  padding-top: 6px;
+  font-size:16px;
+  margin-top: 18px;
+}
+
+.react-calendar__tile--active {
+  background: #f39ba9;
+  color: white;
+}
+
+
+.todo_input{
+  margin-left: -50%;
+  display: flex;
+}
+
+.todo_input input{
+  padding: 20px 40px;
+  
+}
+
+.todo_input input:first-of-type{
+  padding: 16px;
+  margin: 0 20px;
+  border-radius: 8px;
+  border: 4px solid rgba(242, 234, 234, 0.365)
+ 
+}
+
+.todo_input input:last-of-type{
+  padding: 16px;
+  margin: 0 10px 0 -2px;
+  border-radius: 8px;
+  border: 4px solid rgba(242, 234, 234, 0.365);
+  margin-right: 0;
+  padding-right: 250px;
+ 
+}
+
+.todo_input button{
+  border-radius: 0  8px 8px 0;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+  margin: 4px 0 0 6px;
+  padding: 10px 26px;
+  border: 3px solid white;
+
+  
+  
+  
+}
+
+/* .react-calendar__tile {
+  max-width: 100%;
+  padding: 10px 6.6667px;
+  background: none;
+  text-align: center;
+  font: inherit;
+  font-size: 30px;
+} */
+
+/* .react-calendar__month-view__weekNumbers .react-calendar__tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: inherit;
+  font-size: 80px;
+  font-weight: bold;
+} */
+
+/* .react-calendar__month-view__weekdays {
+  text-align: center;
+  text-transform: uppercase;
+  font: inherit;
+  font-size: 0.75em;
+  font-weight: bold;
+} */
+
