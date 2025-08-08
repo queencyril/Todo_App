@@ -31,49 +31,67 @@ function Hero() {
             <button>+</button>
             </div>
           </div>
-          <div>
-            <div>
+
+{/* CARDS */}
+          <div className="card_container">
+            <div className="card">
+              <div>
               <h3>Learn Javascript</h3>
               <p>Master the learning powering the modern web.</p>
               <h4>Start date: 12-08-2025</h4>
             </div>
             <div>
-              <img src="" alt="Completed Task" />
-              <img src="" alt="Edit Task" />
-              <img src="" alt="Delete Task" />
+              <ul>
+              <li><img src="" alt="Completed Task" /></li>
+              <li><img src="" alt="Edit Task" /></li>
+              <li><img src="" alt="Delete Task" /></li>
+              </ul>
+            </div>
             </div>
 
+<div className="card">
             <div>
               <h3>Learn Javascript</h3>
               <p>Master the learning powering the modern web.</p>
               <h4>Start date: 12-08-2025</h4>
             </div>
             <div>
-              <img src="" alt="Completed Task" />
-              <img src="" alt="Edit Task" />
-              <img src="" alt="Delete Task" />
+               <ul>
+              <li><img src="" alt="Completed Task" /></li>
+              <li><img src="" alt="Edit Task" /></li>
+              <li><img src="" alt="Delete Task" /></li>
+              </ul>
             </div>
+</div>
 
+<div className="card">
             <div>
               <h3>Learn Javascript</h3>
               <p>Master the learning powering the modern web.</p>
               <h4>Start date: 12-08-2025</h4>
             </div>
             <div>
-              <img src="" alt="Completed Task" />
-              <img src="" alt="Edit Task" />
-              <img src="" alt="Delete Task" />
+               <ul>
+              <li><img src="" alt="Completed Task" /></li>
+              <li><img src="" alt="Edit Task" /></li>
+              <li><img src="" alt="Delete Task" /></li>
+              </ul>
             </div>
+</div>
 
+<div className="card">
             <div>
               <h3>Learn Javascript</h3>
               <p>Master the learning powering the modern web.</p>
               <h4>Start date: 12-08-2025</h4>
             </div>
             <div>
-              <img src="" alt="Completed Task" />
-              <img src="" alt="Edit Task" />
-              <img src="" alt="Delete Task" />
+               <ul>
+              <li><img src="" alt="Completed Task" /></li>
+              <li><img src="" alt="Edit Task" /></li>
+              <li><img src="" alt="Delete Task" /></li>
+              </ul>
+            </div>
             </div>
           </div>
 
